@@ -65,11 +65,11 @@ int main()
                 resta=CalcularResta(numeroA,numeroB);
                 multiplicacion=CalcularMultiplicacion(numeroA,numeroB);
                 division=CalcularDivision(numeroA,numeroB);
-                if(numeroA>=1 && numeroA == (int) numeroA)
+                if(numeroA>=0 && numeroA == (int) numeroA)
                 {
                     factorialA=CalcularFactorial(numeroA);
                 }
-                if(numeroB>=1 && numeroB==(int) numeroB)
+                if(numeroB>=0 && numeroB==(int) numeroB)
                 {
                     factorialB=CalcularFactorial(numeroB);
                 }

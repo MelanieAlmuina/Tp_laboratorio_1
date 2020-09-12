@@ -44,22 +44,16 @@ float CalcularDivision(float numberA, float numberB)
 }
 long int CalcularFactorial(float number)
 {
-    int factorial;
     int result;
-    long int factor=1;
 
-    if (number==(int)number && number>=0)
+    if(number == 0)
     {
-        for(factorial=number; factorial>0; factorial--)
-        {
-            factor = factor * factorial;
-            result=factor;
-        }
+        result = 1;
     }
-    else if (number<0)
+    else
     {
-        result=0;
+         result = number * CalcularFactorial(number- 1);
     }
 
-    return (result);
+    return result;
 }
