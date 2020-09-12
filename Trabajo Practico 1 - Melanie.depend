@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1599945524 source:j:\programación utn\mi repositorio\tp_laboratorio_1\tp 1\trabajo practico 1\trabajo practico 1 - melanie\trabajo practico 1.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1599945421 j:\programación utn\mi repositorio\tp_laboratorio_1\tp 1\trabajo practico 1\trabajo practico 1 - melanie\funciones.h
+	<stdio.h>
+	<stdlib.h>
+
+1599945421 source:j:\programación utn\mi repositorio\tp_laboratorio_1\tp 1\trabajo practico 1\trabajo practico 1 - melanie\funciones.c
+	"funciones.h"
+
