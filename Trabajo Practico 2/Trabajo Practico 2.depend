@@ -19,3 +19,23 @@
 	<stdlib.h>
 	"MenuOpciones.h"
 
+1601492730 source:j:\programación utn\trabajos practicos lab1\trabajos practicos\trabajo practico 2\arrayemployees.c
+	"ArrayEmployees.h"
+
+1601493618 j:\programación utn\trabajos practicos lab1\trabajos practicos\trabajo practico 2\arrayemployees.h
+	<stdio.h>
+	<stdlib.h>
+
+1601492547 source:j:\programación utn\trabajos practicos lab1\trabajos practicos\trabajo practico 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"MenuOpciones.h"
+
+1601492481 j:\programación utn\trabajos practicos lab1\trabajos practicos\trabajo practico 2\menuopciones.h
+	"ArrayEmployees.h"
+
+1601648576 source:j:\programación utn\trabajos practicos lab1\trabajos practicos\trabajo practico 2\menuopciones.c
+	<stdio.h>
+	<stdlib.h>
+	"MenuOpciones.h"
+

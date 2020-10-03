@@ -10,7 +10,7 @@ o Salario o Sector
 #include <stdio.h>
 #include <stdlib.h>
 #include "MenuOpciones.h"
-#define T 1000//CAMBIALO A 1000 ANTES DE ENTREGAR
+#define T 5//CAMBIALO A 1000 ANTES DE ENTREGAR
 
 int main()
 {
@@ -21,17 +21,9 @@ int main()
     do
     {
         opciones=MenuOpciones(opciones);
-        while(opciones!=1&&opciones!=5)
-        {
-            system("cls");
-            printf("Ingrese un empleado para acceder a las demas opciones.");
-            opciones=MenuOpciones(opciones);
-        }
-
         SwitchCase(ListaEmpleados,opciones);
 
     }while(opciones!=5);
-
 
     return 0;
 }
