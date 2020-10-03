@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "MenuOpciones.h"
 //#include "ArrayEmployees.h"
-#define T 5
+#define T 1000
 
 int MenuOpciones(int opciones)
 {
@@ -67,7 +67,6 @@ void SwitchCase(eEmployee ListaEmpleados[], int opciones)
                 }
                 break;
         case 5:
-                printf("Chau");
                 break;
     }
 

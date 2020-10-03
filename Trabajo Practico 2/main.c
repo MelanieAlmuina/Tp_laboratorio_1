@@ -15,13 +15,15 @@ o Salario o Sector
 int main()
 {
     int opciones;
+    int id;
+    id=0;
+
     eEmployee ListaEmpleados[T];
     initEmployees(ListaEmpleados, T);
 
-    do
-    {
+    do{
         opciones=MenuOpciones(opciones);
-        while(opciones!=1&&opciones!=5)
+        while(opciones!=1&&opciones!=5&&id==0)
         {
             system("cls");
             printf("Ingrese un empleado para acceder a las demas opciones.");

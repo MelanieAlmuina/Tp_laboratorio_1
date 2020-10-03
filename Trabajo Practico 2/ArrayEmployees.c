@@ -29,19 +29,14 @@ void addEmployees(eEmployee ListaEmpleados[],int tam)
             id=ListaEmpleados[i].id;
             printf("Ingrese nombre del empleado:");
             fflush(stdin);
-            gets(ListaEmpleados.name);
+            gets(ListaEmpleados[i].name);
             printf("Ingrese apellido del empleado:");
             fflush(stdin);
-            gets(ListaEmpleados.lastName);
+            gets(ListaEmpleados[i].lastName);
             printf("Ingrese sueldo del empleado:");
             scanf("%f",&ListaEmpleados[i].salary);
             printf("Ingrese sector del empleado:");
             scanf("%d",&ListaEmpleados[i].sector);
-            /*while(!(isdigit(ListaEmpleados[i].salary))||ListaEmpleados[i].sector<0||ListaEmpleados[i].sector>10000)
-            {
-                printf("Error. Reingrese sector del empleado:");
-                scanf("%d",&ListaEmpleados[i].sector);
-            }*/
             ListaEmpleados[i].isEmpty=1;
             system("cls");
             break;
@@ -54,6 +49,7 @@ void FindEmployeeByID(eEmployee ListaEmpleados[],int tam)
     int id;
     int opciones;
 
+    PrintEmployees(ListaEmpleados,tam);
     printf("Ingrese el ID del empleado que desea modificar:");
     scanf("%d",&id);
 
@@ -86,7 +82,7 @@ void FindEmployeeByID(eEmployee ListaEmpleados[],int tam)
         }
     }
 }
-void PrintEmployee (eEmployee ListaEmpleados)
+void PrintEmployee(eEmployee ListaEmpleados)
 {
     printf ("%8d %8s %5s\t%8.2f %5d \n",
             ListaEmpleados.id,
